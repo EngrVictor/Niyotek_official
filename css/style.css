@@ -223,7 +223,8 @@ h6 {
 }
 
 #intro .intro-info .btn-get-started,
-#intro .intro-info .btn-services {
+#intro .intro-info .btn-services,
+.btn-get-started {
   font-family: "Montserrat", sans-serif;
   font-size: 13px;
   font-weight: 600;
@@ -239,7 +240,8 @@ h6 {
 }
 
 #intro .intro-info .btn-get-started:hover,
-#intro .intro-info .btn-services:hover {
+#intro .intro-info .btn-services:hover,
+.btn-get-started:hover {
   background: #0a98c0;
 }
 
@@ -1436,6 +1438,10 @@ h6 {
 
 #footer .credits a:hover {
   color: #0a98c0;
+}
+
+.center {
+  margin-left: 150px;
 }
 
 /*--------------------------------------------------------------
