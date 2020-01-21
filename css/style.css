@@ -240,7 +240,7 @@ h6 {
 }
 
 #intro .intro-info .btn-get-started:hover,
-#intro .intro-info .btn-services:hover,
+#intro .intro-info .btn-services:hover
 .btn-get-started:hover {
   background: #0a98c0;
 }
@@ -1130,6 +1130,7 @@ h6 {
   font-size: 16px;
   color: #6c67a3;
   letter-spacing: 0px;
+  ;
 }
 
 #pricing .card .list-group {
@@ -1527,10 +1528,6 @@ h6 {
     height: auto !important;
   }
 
-  #intro .intro-img {
-    width: 80%;
-  }
-
   #intro .intro-info {
     text-align: center;
     padding-top: 40px;
@@ -1565,4 +1562,14 @@ h6 {
   #footer .footer-top .social-links a {
     margin-bottom: 25px;
   }
+
+  .intro-img {
+    display: none;
+  }
+
+  .intro-info {
+    text-align: center;
+    padding-left: 60px;
+  }
+
 }
