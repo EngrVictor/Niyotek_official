@@ -8,6 +8,10 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+.img-fluid {
+  width: 100%;
+}
+
 a {
   color: #1bb1dc;
   transition: 0.5s;
@@ -926,6 +930,11 @@ h6 {
   height: 12px;
   border-radius: 50%;
   background-color: #ddd;
+}
+
+#intro .owl-dot {
+  width: 10px;
+  height: 10px;
 }
 
 #testimonials .owl-dot.active {
